@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database</title>
+</head>
+<body>
+    <h4>Pemasukan</h4>
+    <form action="insert.php" method="POST">
+        <table>
+            <tr>
+                <td>source :</td>
+                <td><input type="text" name="source" required></td>
+            </tr>
+            <tr>
+                <td>jumlah :</td>
+                <td><input type="text" name="jumlah" required></td>
+            </tr>
+            <tr>
+                <td>jenis :</td>
+                <td><input type="text" name="jenis" required></td>
+            </tr>
+            <tr>
+                <td>tanggal :</td>
+                <td><input type="date" name="tanggal" required></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="submit"></td>
+            </tr>
+        </table>
+    </form>
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Jumlah</th>
+            <th>Jenis</th>
+            <th>Tanggal</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>10000</td>
+                <td>sumbangan</td>
+                <td>10-11-12</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
